@@ -1,0 +1,219 @@
+body{
+        background:#C0392B;
+}
+h1{
+        color: #FFFFFF;
+        font-family: Arial;
+        font-size: 40px;
+        text-align: center;
+}
+p{
+        color: #FFFFFF;
+        font-family: Arial;
+        font-size: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+}
+table{
+        color: #FADBD8;
+        text-align: center;
+        font-family: Arial;
+        font-size: 10px;
+        font-weight: bold;
+        font-style: italic;
+        width: 90%;
+        border: 2;
+        border-color: black;
+        border-style: solid;
+        margin-left: auto;
+        margin-right: auto;-
+        border-collapse: collapse;
+		background: #C0392B;
+}
+tr{
+        color: #FFFFFF;
+        font-family: Arial;
+        font-size: 50px;
+        text-align: center;
+        background-color: #FFFFFF;
+        border-color: white;
+        border-style: solid;
+        
+}
+th{
+        color: #FFFFFF;
+        font-family: Arial;
+        font-size: 50px;
+        text-align: center;
+        background-color: #FFFFFF;
+        border-color: white;
+        border-style: solid;
+}        `
+td{
+        color: #FFFFFF;
+        font-family: Arial;
+        font-size: 50px;
+        text-align: center;
+        background-color: #FFFFFF;
+        border-color: white;
+        border-style: solid;
+}
+
+/*Esta clase es para quitar el borde y fondo a las tablas*/
+.sin{
+        border: 0;
+        border-style: transparent;
+        background-color: transparent;
+}
+/*Esta clase es para modificar la imagen de logo*/
+.logo{
+        height: 150px;
+        width: 150px; 
+}
+/*Esta clase es para modificar las imagenes de la pagina principal*/
+.pri{
+        height: 200px;
+        width: 200px; 
+}
+/*Esta clase es para modificar texto de la pagina Historia*/
+.titu{
+        color: black;
+        font-family: Arial;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+}
+.font{
+        color: #FFFFFF;
+        font-family: Arial;
+        font-size: 15px;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+}
+/*Esta clase es para modificar pagina producto*/
+.tab{
+        color: #000000;
+        text-align: center;
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        border: 2;
+        border-color: black;
+        border-style: solid;
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+        background:	#C0392B;
+}
+.div1{
+        background: linear-gradient(to bottom, #922B21, #922B21);
+		border:4px solid #922B21;
+}
+.div2{
+        background: linear-gradient(to bottom, #7B241C, #000000 );
+		border:4px solid #641E16;
+}
+.div3{
+        background: linear-gradient(to bottom,#9F321B , #000000 );
+		border:4px solid #000000 ;
+}
+.div4{
+        background: linear-gradient(to bottom,#000000 , #000000 );
+		border:4px solid #000000 ;
+}
+.caja{
+        height: 300px;
+		width: 250px;
+		background: #922B21;
+		border: 1px solid #922B21;
+		margin: 5px;
+		color: black;
+		text-align: center;
+		font-family: "Lato", sans-serif; 
+		display: inline-block;
+}
+.caja:hover{
+     /*Agregar sombra al div*/
+	 /*         x y radio color*/
+	 box-shadow:0 0 10px white;
+	 /*Cambia la escala de tamaño de la caja*/
+	 transform: scale(1.3);
+}
+.caja-texto{
+     padding-bottom: 5px;
+	 padding-top: 2px;
+	 font-size: 30px;
+	 color: black;
+	 font-weight: bold; 
+}
+.texto-adicional{
+     padding-top: 5px;
+	 font-size: 25px;
+}
+@font-face{
+        font-family: "mifuente";
+        src:url(Lora-Medium.ttf);
+}
+
+#fuente-Lora-Medium{
+        font-family:"mifuente";
+
+}
+.div6{
+        background:  #000000 ;
+        height: 180px;
+        width: 450px;
+        display:inline-block;
+        transition: all 1s;
+        transition-timing-function: ease;
+		text-align:center;
+}
+.div6:hover{
+        width:900px
+}
+.div7{
+        background: #A83C25;
+        height: 180px;
+        width: 450px;
+        display:inline-block;
+        transition: all 1s;
+        transition-timing-function: ease;
+		text-align:center;
+}
+.div7:hover{
+        width:900px
+}
+.div8{
+        background: #C7492E;
+        height: 180px;
+        width: 450px;
+        display:inline-block;
+        transition: all 1s;
+        transition-timing-function: ease;
+		text-align:center;
+}
+.div8:hover{
+        width:900px
+}
+.div9{
+        height: 180px;
+        width: 450px;
+        display:inline-block;
+        transition: all 1s;
+        transition-timing-function: ease;
+        background:#E15234  ;
+		text-align:center;
+}
+.div9:hover{
+        width:900px
+        
+}
+.contenedor{
+        display:flex
+}
+
+
